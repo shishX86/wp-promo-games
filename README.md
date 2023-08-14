@@ -1,5 +1,5 @@
 # Описание проекта
-Wp plugin. Game Constructor.
+Wp plugin. Game Constructor на базе Phaser JS.
 
 Пример кода для собеседований.
 
