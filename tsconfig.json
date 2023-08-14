@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pubRoot/*" : ["assets/public/js/*"],
+      "@pubCore/*" : ["assets/public/js/Core/*"],
+      "@pubGames/*" : ["assets/public/js/Games/*"]
+    }
+  },
+  "noImplicitThis": false,
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended",
+  "exclude": ["node_modules"],
+  "include": ["assets/**/*"]
+}

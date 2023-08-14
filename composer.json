@@ -1,0 +1,17 @@
+{
+    "name": "mikhail.voronin/wp-promo-games",
+    "description": "Wordpress plugin WP Promo Games allow you to add gamification to your promos.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Mikhail Voronin",
+            "email": "voronin.job@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "WpPromoGames\\" : "./includes" }
+    }
+}

@@ -1,0 +1,37 @@
+.wppgs-game {
+    &__panelbg {
+        width: 70%;
+        max-width: 500px;
+        background-color: $panel-bg;
+        border: 7px solid $border-color;
+        border-radius: 30px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        min-height: 300px;
+    }
+
+    &__starttemplate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        min-height: 100%;
+    }
+}
+
+.wppgs-leaderboard {
+    &__thead,
+    &__trow {
+        display: flex;
+    }
+
+    &__th {
+        flex: 1;
+        min-width: 0;
+    }
+
+    &__td {
+        flex: 1;
+        min-width: 0;
+    }
+}
