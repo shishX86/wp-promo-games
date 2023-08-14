@@ -7,7 +7,7 @@ Wp plugin. Game Constructor на базе Phaser JS.
 # Технологии
 Backend:  PHP(ООП) + Composer
 
-Frontend: JS + TS + Webpack + SCSS
+Frontend: JS + TS + Webpack(Laravel Mix) + SCSS
 
 
 # Быстрые ссылки
